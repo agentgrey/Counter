@@ -1,0 +1,50 @@
+.header {
+    height: 200px;
+    width: 90%;
+    margin: 5%;
+    background-image: linear-gradient(to right, lightgreen ,turquoise);
+}
+.header p {
+    padding-top: 2%;
+    margin-left: 32%;
+    font-size: 28px;
+    font-family: monospace;
+    color: white;
+    font-weight: 800;
+}
+.header input {
+    height: 25px;
+    width: 300px;
+}
+.header button {
+    height: 30px;
+    width: 150px;
+}
+.options {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.counter-container {
+    background-color:rgb(50, 53, 53);
+    height: 250px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.counter {
+    background-color: white;
+    width: 15%;
+    max-width: 80px;
+    height: 120px;
+    margin: auto 2%;
+}
+.counter p {
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  line-height: 80px;
+  border-top: 2px solid black;
+}
